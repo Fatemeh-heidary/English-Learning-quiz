@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>آزمون زبان انگلیسی</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">آزمون زبان انگلیسی</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+</header>
+
+
+<nav id="menu">
+    <a href="index.html">صفحه اصلی</a>
+    <a href="lessons.html">درس‌ها</a>
+    <a href="quiz.html">آزمون</a>
+</nav>
+
+<div class="container">
+
+      <h2>اطلاعات دانشجو</h2>
+
+    <div class="card">
+        <label>نام و نام خانوادگی:</label>
+        <input type="text" id="fullname" class="input">
+
+         <label>شماره دانشجویی:</label>
+        <input type="text" id="studentId" class="input">
+
+        <label>مقطع تحصیلی:</label>
+        <input type="text" id="degree" class="input">
+
+            <button class="btn" onclick="startQuiz()">شروع  آزمون</button>
+    </div>
+</div>
+
+
+    <div id="timer"></div>
+
+    <div id="quizBox" style="display:none;">
+
+
+<div class="card">
+
+    <h3>سؤال ۱</h3>
+    <p>... am a student.</p>
+    <label><input type="radio" name="q1" value="1"> They</label>
+    <label><input type="radio" name="q1" value="1"> She</label>
+    <label><input type="radio" name="q1" value="0"> I</label>
+</div>
+
+<div class="card">
+    <h3>سؤال ۲</h3>
+    <p>She ... to school every day.</p>
+    <label><input type="radio" name="q2" value="1"> going</label>
+    <label><input type="radio" name="q2" value="1"> go</label>
+    <label><input type="radio" name="q2" value="0"> goes</label>
+</div>
+
+<div class="card">
+    <h3>سؤال ۳</h3>
+    <p>They ... football on Fridays.</p>
+    <label><input type="radio" name="q3" value="1"> playing</label>
+    <label><input type="radio" name="q3" value="1"> plays</label>
+    <label><input type="radio" name="q3" value="0"> play</label>
+</div>
+
+<div class="card">
+    <h3>سؤال ۴</h3>
+    <p>She is ... engineer.</p>
+    <label><input type="radio" name="q4" value="1"> the</label>
+    <label><input type="radio" name="q4" value="1"> a</label>
+    <label><input type="radio" name="q4" value="0"> an</label>
+</div>
+
+<div class="card">
+    <h3>سؤال ۵</h3>
+    <p>I have ... book.</p>
+    <label><input type="radio" name="q5" value="1"> the</label>
+    <label><input type="radio" name="q5" value="1"> an</label>
+    <label><input type="radio" name="q5" value="0"> a</label>
+</div>
+
+<div class="card">
+    <h3>سؤال ۶</h3>
+    <p>He ... TV every night.</p>
+    <label><input type="radio" name="q6" value="1"> watching</label>
+    <label><input type="radio" name="q6" value="1"> watch</label>
+    <label><input type="radio" name="q6" value="0"> watches</label>
+</div>
+
+<div class="card">
+    <h3>سؤال ۷</h3>
+    <p>We ... English every day.</p>
+    <label><input type="radio" name="q7" value="1"> studying</label>
+    <label><input type="radio" name="q7" value="1"> studies</label>
+    <label><input type="radio" name="q7" value="0"> study</label>
+</div>
+
+<div class="card">
+    <h3>سؤال ۸</h3>
+    <p>She ... my friend.</p>
+    <label><input type="radio" name="q8" value="1"> am</label>
+    <label><input type="radio" name="q8" value="1"> are</label>
+    <label><input type="radio" name="q8" value="0"> is</label>
+</div>
+
+<div class="card">
+    <h3>سؤال ۹</h3>
+    <p>They ... teachers.</p>
+    <label><input type="radio" name="q9" value="1"> am</label>
+    <label><input type="radio" name="q9" value="1"> is</label>
+    <label><input type="radio" name="q9" value="0"> are</label>
+</div>
+
+<div class="card">
+    <h3>سؤال ۱۰</h3>
+    <p>It ... a cat.</p>
+    <label><input type="radio" name="q10" value="1"> am</label>
+    <label><input type="radio" name="q10" value="1"> are</label>
+    <label><input type="radio" name="q10" value="0"> is</label>
+</div>
+
+<div class="card">
+    <h3>سؤال ۱۱</h3>
+    <p>She ... piano.</p>
+    <label><input type="radio" name="q11" value="1"> playing</label>
+    <label><input type="radio" name="q11" value="1"> play</label>
+    <label><input type="radio" name="q11" value="0"> plays</label>
+</div>
+
+<div class="card">
+    <h3>سؤال ۱۲</h3>
+    <p>We ... to school.</p>
+    <label><input type="radio" name="q12" value="1"> going</label>
+    <label><input type="radio" name="q12" value="1"> goes</label>
+    <label><input type="radio" name="q12" value="0"> go</label>
+</div>
+
+<div class="card">
+    <h3>سؤال ۱۳</h3>
+    <p>He is ... doctor.</p>
+    <label><input type="radio" name="q13" value="1"> the</label>
+    <label><input type="radio" name="q13" value="1"> an</label>
+    <label><input type="radio" name="q13" value="0"> a</label>
+</div>
+
+<div class="card">
+    <h3>سؤال ۱۴</h3>
+    <p>They ... football.</p>
+    <label><input type="radio" name="q14" value="1"> playing</label>
+    <label><input type="radio" name="q14" value="0"> plays</label>
+    <label><input type="radio" name="q14" value="0"> play</label>
+</div>
+
+<div class="card">
+    <h3>سؤال ۱۵</h3>
+    <p>I ... happy.</p>
+    <label><input type="radio" name="q15" value="1"> are</label>
+    <label><input type="radio" name="q15" value="1"> is</label>
+    <label><input type="radio" name="q15" value="0"> am</label>
+
+    <button type="button" class="btn" onclick="finishQuiz()">ثبت آزمون</button>
+    <div id="result" class="result-box"></div>
+
+</div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
+

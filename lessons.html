@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>درس‌های زبان انگلیسی</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">درس‌های زبان انگلیسی</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+</header>
+
+<nav id="menu">
+    <a href="index.html">صفحه اصلی</a>
+    <a href="lessons.html">درس‌ها</a>
+    <a href="quiz.html">آزمون</a>
+</nav>
+
+<div class="container">
+
+    <h2>درس‌های موجود</h2>
+
+    <div class="lesson-buttons">
+        <button class="lesson-btn" onclick="showLesson('lesson1')">درس ۱: ضمیرها</button>
+        <button class="lesson-btn" onclick="showLesson('lesson2')">درس ۲: زمان‌ها</button>
+        <button class="lesson-btn" onclick="showLesson('lesson3')">درس ۳: حروف تعریف</button>
+    </div>
+
+    <div id="lessonContent" class="card" style="display:none;"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

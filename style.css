@@ -1,0 +1,117 @@
+body {
+    font-family: "Vazirmatn", sans-serif;
+    background: #ffe6f2;
+    color: #333;
+    direction: rtl;
+    margin: 0;
+}
+
+header {
+    background: #ff99cc;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #fff;
+}
+
+.hamburger {
+    cursor: pointer;
+    font-size: 26px;
+}
+
+#menu {
+    display: none;
+    background: #ffb3d9;
+    padding: 10px;
+}
+
+#menu a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(255, 182, 193, 0.5);
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ff99cc;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    background: #ff66b3;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #ff85c2;
+}
+
+.timer {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+    color: #d63384;
+}
+
+.result-box {
+    background: #fff0f5;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    display: none;
+    box-shadow: 0 4px 12px rgba(255, 182, 193, 0.5);
+}
+
+.lesson-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.lesson-btn {
+    flex: 1;
+    padding: 15px;
+    background: #ff99cc;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.lesson-btn:hover {
+    background: #ff66b3;
+    transform: translateY(-3px);
+}
