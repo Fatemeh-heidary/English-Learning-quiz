@@ -115,3 +115,53 @@ header {
     background: #adb5bd;
     transform: translateY(-3px);
 }
+
+@media (max_width:768px) {
+    header{
+        padding:12px 16px;
+        font_size:17px;
+    }
+    #menu a {
+        padding: 10px 16px;
+        font-size: 17px;
+    }
+    .hero {
+        padding: 40px 20px;
+    }
+    .hero h1 {
+        font-size: 23px;
+    }
+
+    .hero p {
+        font-size: 17px;
+
+    }
+
+    .container {
+        width: 90%;
+        padding: 15px;
+        box-sizing: border-box;
+        }
+
+
+    .card {
+        padding: 20px;
+        margin: 15px 0;
+
+    }
+
+    .input {
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    .lesson-buttons {
+        flex-direction: column;
+
+    }
+
+    .lesson-btn {
+        width: 100%;
+        }
+}
