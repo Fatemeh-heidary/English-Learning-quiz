@@ -1,40 +1,38 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ورود دانشجو</title>
+    <title>Stundent Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <div class="logo">ورود دانشجو</div>
+    <div class="logo">Student Login</div>
     <div class="hamburger" onclick="toggleMenu()">☰</div>
 </header>
 
 <nav id="menu">
-    <a href="in.html">صفحه اصلی</a>
-    <a href="lessons.html">درس‌ها</a>
-    <a href="student-info.html">ورود دانشجو</a>
-    <a href="quiz.html">آزمون</a>
+    <a href="in.html">Home</a>
+    <a href="lessons.html">Lessons</a>
+    <a href="student-info.html"> Student Login</a>
+    <a href="quiz.html">Quiz</a>
 </nav>
 
 <div class="container">
 
-    <h2>فرم اطلاعات دانشجو</h2>
+    <h2>Student Information Form</h2>
 
     <div class="card">
-        <label>نام و نام خانوادگی:</label>
+        <label>Full Name:</label>
         <input type="text" id="fullname" class="input">
 
-        <label>شماره دانشجویی:</label>
-        <input type="text" id="studentId" class="input">
 
-        <label>رشته تحصیلی:</label>
+        <label>Major:</label>
         <input type="text" id="major" class="input">
 
-        <button class="btn" onclick="enableQuiz()">شروع آزمون</button>
+        <button class="btn" onclick="enableQuiz()">Start Quiz</button>
     </div>
 
 </div>
