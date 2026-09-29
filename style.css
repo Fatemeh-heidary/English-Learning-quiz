@@ -1,13 +1,13 @@
 body {
-    font-family: "Vazirmatn", sans-serif;
-    background: #ffe6f2;
-    color: #333;
-    direction: rtl;
+    font-family: "Segoe UI",Arial, sans-serif;
+    background: #f8f9fa;
+    color: #212529;
+    direction: ltr;
     margin: 0;
 }
 
 header {
-    background: #ff99cc;
+    background: #495057;
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,7 @@ header {
 
 #menu {
     display: none;
-    background: #ffb3d9;
+    background: #6c757d;
     padding: 10px;
 }
 
@@ -45,7 +45,7 @@ header {
 }
 
 .card {
-    background: #ffffff;
+    background: #ced4da;
     padding: 30px;
     margin: 20px;
     border-radius: 20px;
@@ -57,14 +57,14 @@ header {
     padding: 12px;
     margin: 10px 0;
     border-radius: 8px;
-    border: 1px solid #ff99cc;
+    border: 1px solid #dee2e6;
     font-size: 16px;
 }
 
 .btn {
     width: 100%;
     padding: 15px;
-    background: #ff66b3;
+    background: #212529;
     border: none;
     border-radius: 10px;
     font-size: 18px;
@@ -74,7 +74,7 @@ header {
 }
 
 .btn:hover {
-    background: #ff85c2;
+    background: #495057;
 }
 
 .timer {
@@ -102,7 +102,7 @@ header {
 .lesson-btn {
     flex: 1;
     padding: 15px;
-    background: #ff99cc;
+    background: #495057;
     border: none;
     border-radius: 10px;
     font-size: 18px;
@@ -112,6 +112,6 @@ header {
 }
 
 .lesson-btn:hover {
-    background: #ff66b3;
+    background: #adb5bd;
     transform: translateY(-3px);
 }
